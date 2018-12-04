@@ -1,0 +1,25 @@
+.name{
+	font-size: 2em;
+	font-weight:bold;
+}
+
+.instrument2{
+
+	font-size: 2em;
+}
+.nic{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+body{
+	background-repeat: no-repeat;
+}
+
+div{
+	position: relative;
+	border: solid black;
+	left:70%;
+	width: 300px;
+
+}

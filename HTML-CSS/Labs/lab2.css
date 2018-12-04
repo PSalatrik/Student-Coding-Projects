@@ -1,0 +1,75 @@
+body{
+	height: 10000px;
+}
+#Box1{
+	position: fixed;
+	height:20%;
+	width:75%;
+	padding:40px, 40px, 40px, 40px;
+	margin: 25px, 25px, 25px, 25px; 
+	margin-bottom: 50px;
+	border: dashed;
+	background-color: blue;
+	text-align: center;
+	overflow: hidden;
+	z-index: 1;
+
+}
+
+#Box2{
+	position:relative;
+	display: inline-block;
+	height:50px;
+	width:50px;
+	background-color: red;
+	margin-top:25px;
+	margin-bottom: 60%;
+	margin-left: auto;
+	margin-right: 100px;
+	border-radius: 20%;
+	border-style: dashed green;
+	text-align: center;
+	font-size: 10px;
+	float: left;
+	z-index: 2;
+
+}
+
+#box3{
+	position: absolute;
+	display: inline;
+	height:300px;
+	width:300px;
+	padding:40px, 40px, 40px, 40px;
+	margin: 25px, 25px, 25px, 25px; 
+	border: solid;
+	background-color: yellow;
+	text-align: center;
+	border-radius: 50%;
+	z-index: 3;
+
+
+}
+p{
+	padding: 10px 10px 10px 10px;
+}
+
+
+/*CSS Positioning(property:
+Static - default value 
+
+Reletive - (sort of static) difference: ofset by adding top, bottom,
+ left and right properties - remains in the normal flow - 
+
+Absolute - (sort of Relitive) remover from the normal 
+flow of the document / can add positioning 
+
+Fixed - will not move around the screen /  Fixed to the viewport
+
+
+///////////Float - Left - right - taken out of the flow
+///////////Clear - left - right - both - nothing allowed 
+
+Inline-block vs float
+
+z-index - define order of overlaping elements - 

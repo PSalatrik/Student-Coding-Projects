@@ -1,0 +1,15 @@
+.background{
+	background-color: #e0ffff;
+	font-size:90;
+	font-color: green;
+	text-align: center
+
+}
+
+.static{
+	position: relative;
+	top:100px;
+	height:100px;
+	width:100px;
+	background-color: red;
+}

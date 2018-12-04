@@ -1,0 +1,89 @@
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+  background-color: lightblue;
+}
+
+.box {
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  background-color: bisque;
+}
+
+.box:first-child {
+  background-color: purple;
+}
+
+.box:nth-child(2n+3) {
+  background-color: red;
+}
+
+.p1:first-line {
+  color: blue;
+}
+
+.p2:first-letter {
+  font-size: 2em;
+  text-decoration: underline;
+  font-weight: bolder;
+  font-family: "AguafinaScript-Regular";
+}
+
+@font-face {
+  font-family: "AguafinaScript-Regular";
+  src: url('fonts/aguafina-script/AguafinaScript-Regular.ttf');
+}
+
+.alpha {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+
+.opacity {
+  opacity: 0.5;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 15px 5px red;
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.transform {
+  display: inline-block;
+  transform: rotate(-45deg);
+}
+
+.transform:before {
+  content: url(http://placehold.it/50);
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

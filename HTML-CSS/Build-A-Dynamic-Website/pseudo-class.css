@@ -1,0 +1,68 @@
+.masterdiv{
+	border:solid-black;
+	height:250px;
+	width:250px;
+	text-align: center;
+	color:black;
+	margin:20px 20px 20px 20px;
+	padding:5px 5px 5px 5px;
+
+}
+.masterdiv:hover{
+	float:right;
+}
+
+
+#one:hover {
+	background-color: green;
+
+}	
+#one{
+	background-color: yellow;
+	position:relative;
+	float:left;
+
+}
+
+#two{
+	background-color: blue;
+	position:relative;
+	float:left;
+
+}
+#three:hover{
+	background-color: yellow
+}
+#three{
+	background-color: green;
+	position:relative;
+	float:left;
+}
+
+a:link{color:red;}
+a:visited{color: green}
+a:hover{color: blue;}
+a:active{color: yellow;}
+
+
+/*Fonts
+@font-face{
+	Download some fonts
+	googlefonts.com 
+
+}
+
+Colors
+color.adobe.com
+materilpalette.com
+coolers.co
+
+fillmurray.com
+placekitten.com 
+placeimg.com ../
+
+
+Sampel Text:
+Lorem Ipsum!!!
+
+ADD PSEUDO FONTS TO IMAGE SITE

@@ -1,0 +1,84 @@
+body{
+	background-color: #4d4a11;
+}
+
+img{
+	height:200px;
+	
+}
+header{
+	height:10em;
+	width: 100%;
+	background-color:#3d3b05;
+	border-radius: 50%;
+	border: double;
+	border: solid black;
+	text-align: center;
+	font-size: 2em;
+}
+
+header p{
+	padding-top: 8%;
+}
+
+
+
+.masterdiv{
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #3d3b05;
+	overflow: hidden;
+	border: 5px solid black;
+	margin-top: 5%;
+	text-align: center;
+}
+
+#photo1{
+	float: right;
+}
+#photo3{
+}
+#photo2{
+	float: right;
+	margin-right: 20%
+}
+#photo4{
+	float: right;
+}
+#Photo5{
+	float: right;
+	margin-right: 20%;
+}
+#photo7{
+	float: right;
+
+}
+#photo8{
+	float: right;
+	margin-right: 20%;
+}
+
+#superdiv{
+	position: fixed;
+	bottom:20px;
+	margin-top: 80%;
+	display: inline;
+	height: 400px;
+	width:400px;
+	margin: auto;
+	
+}
+
+#superdiv:hover{
+	float: right;
+	background-color:#3d3b05;
+}
+
+footer{
+	position:absolute;
+	margin-top:100%;
+	height:25px;
+	width: 100%;
+	background-color:#3d3b05;
+}

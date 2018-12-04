@@ -1,0 +1,89 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<title>New Shopping List</title>
+</head>
+<body ng-app="myModule">
+
+	<H1> Gotta get this at the store </h1>
+
+	<div ng-controller="myList">  
+		<ul> 
+			<li ng-repeat="thing in myList">{{thing.item}} cost  {{thing.cost | currency }}</li> 
+		</ul>
+		
+		<button ng-click="addItem(itemName, itemCost)">Add to list</button> 
+	
+
+	
+  		
+  		<input value="" type="text" placeholder="Name of Item" ng-model="itemName">
+  		
+  		<input value="1" type="number" placeholder="Cost of Item" ng-model="itemCost">
+  		 
+  	
+  		<H1>Total:<H1><td>{{total}}</td>
+  	</div> 
+  		
+
+
+
+
+ 
+
+    
+
+
+
+    <!-- begin: LIST OF CHECKED ITEMS
+    <div id="CheckedList">
+         <h3>Checked Items: {{getTotalCheckedItems()}}</h3>
+
+         <h4>Checked:</h4>
+
+        <table>
+            <tr ng-repeat="item in checked" class="item-checked">
+                <td><b>amount:</b> {{item.amount}} -</td>
+                <td><b>name:</b> {{item.name}} -</td>
+                <td> 
+                   <i>this item is checked!</i>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+     end: LIST OF CHECKED ITEMS
+    
+
+
+
+
+    begin: LIST OF UNCHECKED ITEMS 
+    <div id="UncheckedList">
+         <h3>Unchecked Items: {{getTotalItems()}}</h3>
+
+         <h4>Unchecked:</h4>
+
+        <table>
+            <tr ng-repeat="item in items" class="item-unchecked">
+                <td><b>amount:</b> {{item.amount}} -</td>
+                <td><b>name:</b> {{item.name}} -</td>
+                <td>
+                    <button ng-click="toggleChecked($index)">check item</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    end: LIST OF ITEMS 
+  </div>
+		
+-->
+
+
+
+
+
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="newShoppingList.js"></script>
+</body>
+</html>

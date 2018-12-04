@@ -1,0 +1,29 @@
+.footer.dark-wrapper.footer-bg1 {
+    display: none;
+}
+
+
+.x-foot-pl .searchform{
+    display: none;
+}
+
+ul, ol {
+    list-style: none;
+    margin-bottom: 0px;
+    text-indent:0;
+}
+
+ul {
+    padding: 0;
+}
+
+a:link {color:#333337 ;}
+
+a:visited {color: #333337;}
+
+a:hover { color: #009cde;}
+
+a:active { color: #009cde;}
+
+
+[vc_row css=".vc_custom_1511196408893{background-color: #f1f2f2 !important;}" el_class="x-foot-pl"][vc_column][vc_row_inner][vc_column_inner width="1/4"][vc_wp_custommenu nav_menu="3140" title="ITに関する問題"][/vc_column_inner][vc_column_inner width="1/4"][vc_wp_custommenu nav_menu="331" title="業界をリードする製品"][/vc_column_inner][vc_column_inner width="1/4"][vc_wp_custommenu nav_menu="335" title="およそ"][/vc_column_inner][vc_column_inner width="1/4"][vc_raw_html]JTNDdWwlMjBjbGFzcyUzRCUyMnNvY2lhbCUyMiUzRSUwQSUwOSUyMCUyMCUyMCUyMCUwOSUwOSUzQ2xpJTNFJTNDYSUyMGhyZWYlM0QlMjJodHRwcyUzQSUyRiUyRnd3dy5mYWNlYm9vay5jb20lMkZjb21wdXdhcmUlMjIlMjB0YXJnZXQlM0QlMjJfYmxhbmslMjIlM0UlM0NpJTIwY2xhc3MlM0QlMjJpb24tc29jaWFsLWZhY2Vib29rJTIyJTNFJTNDJTJGaSUzRSUzQyUyRmElM0UlM0MlMkZsaSUzRSUzQ2xpJTNFJTNDYSUyMGhyZWYlM0QlMjJodHRwcyUzQSUyRiUyRnR3aXR0ZXIuY29tJTJGY29tcHV3YXJlJTIyJTIwdGFyZ2V0JTNEJTIyX2JsYW5rJTIyJTNFJTNDaSUyMGNsYXNzJTNEJTIyaW9uLXNvY2lhbC10d2l0dGVyJTIyJTNFJTNDJTJGaSUzRSUzQyUyRmElM0UlM0MlMkZsaSUzRSUzQ2xpJTNFJTNDYSUyMGhyZWYlM0QlMjJodHRwcyUzQSUyRiUyRnd3dy5saW5rZWRpbi5jb20lMkZjb21wYW55JTJGY29tcHV3YXJlJTIyJTIwdGFyZ2V0JTNEJTIyX2JsYW5rJTIyJTNFJTNDaSUyMGNsYXNzJTNEJTIyaW9uLXNvY2lhbC1saW5rZWRpbiUyMiUzRSUzQyUyRmklM0UlM0MlMkZhJTNFJTNDJTJGbGklM0UlM0NsaSUzRSUzQ2ElMjBocmVmJTNEJTIyaHR0cHMlM0ElMkYlMkZ3d3cueW91dHViZS5jb20lMkZjb21wdXdhcmUlMjIlMjB0YXJnZXQlM0QlMjJfYmxhbmslMjIlM0UlM0NpJTIwY2xhc3MlM0QlMjJpb24tc29jaWFsLXlvdXR1YmUlMjIlM0UlM0MlMkZpJTNFJTNDJTJGYSUzRSUzQyUyRmxpJTNFJTNDbGklM0UlM0NhJTIwaHJlZiUzRCUyMmh0dHBzJTNBJTJGJTJGcGx1cy5nb29nbGUuY29tJTJGJTJCY29tcHV3YXJlJTIyJTIwdGFyZ2V0JTNEJTIyX2JsYW5rJTIyJTNFJTNDaSUyMGNsYXNzJTNEJTIyaW9uLXNvY2lhbC1nb29nbGVwbHVzJTIyJTNFJTNDJTJGaSUzRSUzQyUyRmElM0UlM0MlMkZsaSUzRSUzQ2xpJTNFJTNDYSUyMGhyZWYlM0QlMjJodHRwcyUzQSUyRiUyRnd3dy5pbnN0YWdyYW0uY29tJTJGY29tcHV3YXJlY29ycCUyRiUyMiUyMHRhcmdldCUzRCUyMl9ibGFuayUyMiUzRSUzQ2klMjBjbGFzcyUzRCUyMmlvbi1zb2NpYWwtaW5zdGFncmFtJTIyJTNFJTNDJTJGaSUzRSUzQyUyRmElM0UlM0MlMkZsaSUzRSUwOSUwQSUwOSUyMCUyMCUyMCUyMCUwOSUzQyUyRnVsJTNF[/vc_raw_html][vc_single_image image="33189" img_size="full" onclick="custom_link" link="https://compuware.com" css=".vc_custom_1510862860621{padding-top: 32px !important;}"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]

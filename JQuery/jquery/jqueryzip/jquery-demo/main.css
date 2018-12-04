@@ -1,0 +1,55 @@
+.container {
+  width: 960px;
+  margin: 5px auto;
+}
+
+.header {
+  height: 150px;
+  background-color: #369;
+  color: #fff;
+  border-radius: 5px;
+  display: none;
+}
+
+.header-text{
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.row{
+  width: 100%;
+
+}
+.box {
+  box-sizing: border-box;
+  display: inline-block;
+  height: 150px;
+  width: 172px;
+  border-radius: 5px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.vanishing{
+  clear: left;
+}
+
+.text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  padding-top: 55px;
+}
+
+.yellow{
+  background-color: #fc6;
+}
+
+.dark-blue{
+  background-color: #036;
+}
+.blue{
+  background-color: #069;
+}

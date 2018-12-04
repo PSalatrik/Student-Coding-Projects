@@ -1,0 +1,31 @@
+
+div{
+	height: 200px;
+	width:200px;
+	background-color: blue;
+}
+
+li{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.newcolor{
+	background-color: red;
+}
+
+.togs{
+	height: 50px;
+	width: 200px;
+	background-color: green;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+.togs:hover{
+	width:100%;
+	margin:left: 80%;
+}

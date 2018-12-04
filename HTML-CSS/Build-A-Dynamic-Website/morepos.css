@@ -1,0 +1,39 @@
+#hellogovna{
+	position: relative;
+	top: 25%;
+	left:25%;
+	height: 500px;
+	width:500px;
+	background-color: yellow;
+	overflow: hidden;
+}
+
+
+.one{
+	text-align: center;
+	height: 100px;
+	width: 200px;
+}
+#one{
+	position: fixed;
+	bottom: 60%;
+	right: 50%;
+	background-color: blue;
+	color:white;
+}
+
+#two{
+	position: absolute;
+	left:40%;
+	bottom: 5px;
+	background-color: red 
+}
+
+ #footer{
+ 	position: absolute;
+ 	bottom:0%;
+ 	height:25px;
+ 	width:100%;
+ 	background-color: black;
+ 	color: white;
+ }

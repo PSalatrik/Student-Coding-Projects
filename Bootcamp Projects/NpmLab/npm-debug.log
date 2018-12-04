@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mkdirp',
+1 verbose cli   '--save' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mkdirp
+8 silly fetchNamedPackageData mkdirp
+9 silly mapToRegistry name mkdirp
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+13 verbose request uri https://registry.npmjs.org/mkdirp
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 11:19:51 AM
+16 verbose request id 658acf2adab9c5e7
+17 verbose etag "D0P1TLPCMHM0DGH22NY9293OQ"
+18 http request GET https://registry.npmjs.org/mkdirp
+19 http 304 https://registry.npmjs.org/mkdirp
+20 verbose headers { date: 'Wed, 02 Dec 2015 16:19:50 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   'cache-control': 'max-age=60',
+20 verbose headers   etag: '"D0P1TLPCMHM0DGH22NY9293OQ"',
+20 verbose headers   age: '23',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-atl6235-ATL',
+20 verbose headers   'x-cache': 'HIT',
+20 verbose headers   'x-cache-hits': '5',
+20 verbose headers   'x-timer': 'S1449073190.881983,VS0,VE0',
+20 verbose headers   vary: 'Accept' }
+21 silly get cb [ 304,
+21 silly get   { date: 'Wed, 02 Dec 2015 16:19:50 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     'cache-control': 'max-age=60',
+21 silly get     etag: '"D0P1TLPCMHM0DGH22NY9293OQ"',
+21 silly get     age: '23',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-atl6235-ATL',
+21 silly get     'x-cache': 'HIT',
+21 silly get     'x-cache-hits': '5',
+21 silly get     'x-timer': 'S1449073190.881983,VS0,VE0',
+21 silly get     vary: 'Accept' } ]
+22 verbose etag https://registry.npmjs.org/mkdirp from cache
+23 verbose get saving mkdirp to C:\Users\Philip\AppData\Roaming\npm-cache\registry.npmjs.org\mkdirp\.cache.json
+24 silly install normalizeTree
+25 silly loadCurrentTree Finishing
+26 silly loadIdealTree Starting
+27 silly install loadIdealTree
+28 silly cloneCurrentTree Starting
+29 silly install cloneCurrentTreeToIdealTree
+30 silly cloneCurrentTree Finishing
+31 silly loadShrinkwrap Starting
+32 silly install loadShrinkwrap
+33 silly loadShrinkwrap Finishing
+34 silly loadAllDepsIntoIdealTree Starting
+35 silly install loadAllDepsIntoIdealTree
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Refusing to install mkdirp as a dependency of itself
+41 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:40:14)
+41 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+41 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+41 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:15:5
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+41 verbose stack     at Array.forEach (native)
+41 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+42 verbose cwd C:\Users\Philip\desktop\Grand CircusFED\NpmLab
+43 error Windows_NT 6.2.9200
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mkdirp" "--save"
+45 error node v5.0.0
+46 error npm  v3.3.6
+47 error code ENOSELF
+48 error Refusing to install mkdirp as a dependency of itself
+49 error If you need help, you may report this error at:
+49 error     <https://github.com/npm/npm/issues>
+50 verbose exit [ 1, true ]

@@ -1,0 +1,9 @@
+.footer{
+	height:250px;
+	width: 250px;
+	background-color: green;
+
+}
+
+.footer:hover{background-color: red;}
+

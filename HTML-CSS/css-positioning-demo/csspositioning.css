@@ -1,0 +1,50 @@
+.masterdiv{
+	height:250px;
+	width: 250px;
+	border: 10px solid black;
+	margin: 10px 10px 10px 10px;
+
+}
+
+#box1{
+	position:relative;
+	background-color: green;
+	z-index: 1;
+	float: right;
+}
+
+#box2{
+	position:relative;
+	background-color: blue;
+	z-index: 5;
+	float: right;
+}
+
+#box3{
+	display: inline-block;
+	position: fixed;
+	background-color: yellow;
+	z-index: 3;
+	margin-top: 10%;
+}
+
+#box4{
+	display: inline-block;
+	position: absolute;
+	background-color: red;
+	z-index: 4;
+	margin-right: 0%;
+	margin-left: 75%;
+	margin-top:80%;
+	margin-bottom: 0%;
+}
+
+span{
+	position: absolute;
+	top:-25px;
+	color: red;
+}
+
+body{
+	height:1000;
+}

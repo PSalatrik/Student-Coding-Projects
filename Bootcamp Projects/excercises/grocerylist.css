@@ -1,0 +1,26 @@
+body{
+	background-color:#3D86C6;
+	}
+
+	
+	
+	p{
+		font-size: 2em;
+		height:100px;
+		width: 100px;
+		border: double #3E513D 15px;
+		background-color: #631124;
+		text-align: center;
+		
+		}
+
+		div{
+		display: inline-block;
+		font-size: 2em;
+		height:100px;
+		width: 125px;
+		border: double #3E513D 15px;
+		background-color: #631124;
+		margin: 5px;
+		text-align: center;
+	}

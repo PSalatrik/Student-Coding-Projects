@@ -1,0 +1,48 @@
+.container{
+	height: 300px;
+	width: 99%;
+	background-color: blue;
+	margin: 10px 10px 10px 10px;
+}
+
+.masterdiv{
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+	background-color: #3d3b05;
+	overflow: hidden;
+	border: 5px solid black;
+	margin: 20px 20px 20px 20px;
+	text-align: center;
+	float: right
+}
+.masterdiv:nth-child(1){
+	background-color:black;
+	opacity: .5;
+	box-shadow: 5px 5px 15px 5px red;
+
+}
+
+
+h1{
+	font-size: 15px;
+	color: black;
+
+}
+
+h1:hover{
+	
+	text-transform:rotate(90deg);
+}
+
+
+
+#one{
+	float: left;
+
+}
+
+#two{
+	margin: 20px 100px 20px 100px;
+
+}

@@ -1,0 +1,146 @@
+body{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header{
+	text-align: center;
+	font-size: 30px;
+	
+}
+a:link: {color: black}
+a:hover:{color: grey}
+a:visited:{color: red}
+
+
+.masterclass:link: {background-color: orange;}
+.masterclass:hover: {background-color: red}
+.masterclass:visited: {}  
+	
+
+
+#row1image1{
+	position: relative;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+	float:right;
+}
+#row1image2{
+	position: relative;
+	color:white;
+	margin:20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width: 300px;
+	text-align: center;
+	float:right;
+	
+}
+#row1image3{
+	position: relative;
+	color:white;
+	margin:20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width: 300px;
+	text-align: center;
+	float: right;
+
+}
+#fixed{
+	position: fixed;
+	color:white;
+	margin:20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:350px;
+	width: 300px;
+	text-align: center;
+	
+}
+#row2fixed{
+	position: absolute;
+	top: 525px;
+	right: 0px;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+	
+}
+#row2image2{
+	position: absolute;
+	top:525px;
+	left:300px;
+	color:white;
+	margin:20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width: 300px;
+	text-align: center;
+	float: left;
+	clear: left;
+
+}
+#row2image3{
+	position:absolute;
+	top: 525px;
+	left: 635px;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+}
+#row3img1{
+	position:absolute;
+	top: 850px;
+	left: 300px;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+}
+#row3img2{
+	position:absolute;
+	top: 850px;
+	left: 625px;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+}
+
+#row3img3{
+	position:absolute;
+	top: 850px;
+	left: 950px;
+	color:white;
+	margin: 20px 20px 20px 20px;
+	padding: 5px 5px 5px 5px;
+	height:300px;
+	width:300px;
+	text-align: center;
+}
+#footer{
+ 	position: absolute;
+ 	bottom:0%;
+ 	height:25px;
+ 	width:100%;
+ 	background-color: black;
+ 	color: white;
+
+
+
+

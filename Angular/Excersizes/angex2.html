@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="angex2.css">
+	<title></title>
+</head>
+<body ng-app background="blues.png">
+
+
+
+
+
+
+
+
+
+
+  <div ng-init="bluesbrothers = [
+   {name: 'Jake Blues', instrument:'Lead Vocals', nicname:'Joliet.'}, 
+   {name: 'Elwood J. Blues', instrument: 'Harmonica', nicname:'Woody.' }, 
+   {name: 'Matt Murphey', instrument: 'Rhythm Guitar', nicname:'Guitar.'},
+   {name: 'Steve Cropper ', instrument: 'lead Guitar', nicname:'The Colonel.'},
+   {name: 'Donald Dunn', instrument: 'Bass', nicname:'Duck.'},
+   {name: 'Murphy Dunne', instrument: 'Keys', nicname:'Magictone.'},
+   {name: 'Willie Hall', instrument: 'drums', nicname:'Too Big.'},
+   {name: 'Tom Malone ', instrument: 'Trombone', nicname:'Bones.'},
+   {name: 'Lou Marini', instrument: 'Saxophone', nicname:'Blue.'},
+   {name: 'Alan Rubin ', instrument: 'Trumpet', nicname:'Mr. Fabulious.'}
+ 
+  ]">
+    
+    <ul>
+      <li ng-repeat="bluesbrother in bluesbrothers"><span class='name'>{{bluesbrother.name}}</span> plays the <span class='instrument2'>{{bluesbrother.instrument}}</span> , his friends call him: <span class='nic'>{{bluesbrother.nicname}}</span></li>
+    </ul>
+  </div>
+
+  
+
+
+
+
+  
+
+</body>
+<script type="text/javascript" src="angular.min.js"></script>
+
+</html>

@@ -1,0 +1,13 @@
+#squeezebox{
+	background-color: gray; 
+	border: solid black;
+	margin: 50px;
+	padding: 5px 5px 5px 5px;
+	height:50%;
+	width:50%;
+
+}
+
+#img1{
+	margin:0 auto;
+}

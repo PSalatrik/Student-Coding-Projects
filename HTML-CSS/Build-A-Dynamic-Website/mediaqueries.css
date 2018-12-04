@@ -1,0 +1,26 @@
+.masstext {
+	height:750px;
+	width:500px;
+	margin: 0 auto;
+	background-color: red;
+	}
+
+@media only screen 
+	and (min-width: 300px) 
+	and (max-width: 900px) {
+
+		.stuff {
+			clear: left;
+			color: red; 
+		}
+
+		.masstext {
+			height:100px;
+			width:100px;
+			background-color: black; 
+		}
+	}
+
+.stuff {
+	float: left; 
+}

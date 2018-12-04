@@ -1,0 +1,25 @@
+.col-lg-2{
+	
+	overflow: hidden;
+}
+
+.col-lg-10{
+	background-color: #5FB1F2;
+	text-align: left;
+}
+
+img{
+	height:5em;
+	width: 20em;
+}
+
+.col-lg-3{
+	background-color:#D3CF5A ;
+
+}
+.col-lg-6{
+	height:100%;
+	background-color: #5FB1F2;
+	overflow: hidden;
+	border: solid white;
+}
